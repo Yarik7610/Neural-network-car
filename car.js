@@ -91,8 +91,6 @@ class Car {
       this.sensor.update(roadBorders, traffic)
       const offsets = this.sensor.readings.map((r) => (r === null ? 0 : 1 - r.offset)) //низкие значения если далеко от объекта врезания, высокие - если близко
       const outputs = NeuralNetwork.feedForward(offsets, this.brain)
-      console.log(outputs)
-
       if (this.useBrain) {
         this.controls.forward = outputs[0]
         this.controls.left = outputs[1]
