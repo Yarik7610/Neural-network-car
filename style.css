@@ -4,9 +4,6 @@ body {
   border: 0;
   background-color: darkgray;
   overflow: hidden;
-  background-image: url('sea.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
