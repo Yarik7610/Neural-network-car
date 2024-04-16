@@ -1,0 +1,1 @@
+Thank's to Radu and his tutorial, you can watch it here https://www.youtube.com/watch?v=Rs_rAxEsAvI. You need to train your car, when the result is good you should save it. Doing this several times will lead you to perfect car.
